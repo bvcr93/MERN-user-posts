@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: rgb(4, 9, 27);
+    color: white;
+}
+.maincol {
+    @apply max-w-screen-lg mx-auto;
+}
